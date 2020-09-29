@@ -219,12 +219,12 @@ namespace ChooseYourOwnAdventure
                 {
                     case "hello":
                         Console.Clear();
-                        Console.WriteLine("Blackhole to spaceship placeholder");
+                        Console.WriteLine("You can hear the black figure's breathing from across the isle. The death rattle sound makes you want to clear your own throat. You decide to extend a cheerfull greeting. \"Well, hello good sir! Pleasant weather we're having! Am I right?\" The hooded head turns toward you, as it's neck popps and cracks. You can see a mouth under the hood. Suddenly the mouth opens wide and you are sucked into the dark gaping chasm as if it were a black hole!");
                         break;
 
                     case "silence":
                         Console.Clear();
-                        Console.WriteLine("YOU WON THE GAME placeholder");
+                        Console.WriteLine("You decide to mind your own business. That cloaked guy is creapy anyway, and he smells like cheese. You put in your AirPods and resume the Ear Biscuits podcast you'd been listening to before this whole three door situation began in the first place. There's a loud screach and you're jolted awake. \"How in the world was I able to fall asleep on this crazy cat bus thing\" you ask yourself. As you look around you notice there is no longer a cloaked figure to your left. A man sits in it's place wearing work coveralls with a name patch that reads \"Squiggy\". He smells like cheese. Looking out of your window, you realize the now normal looking bus is parked outside of your apartment. You waste no time and hustle off of that bus and into your warm home-sweet-home. CONGRATULATIONS! YOU'VE WON THE GAME!");
                         Console.ReadKey();
                         Console.ReadKey();
                         continueToRun = false;
@@ -232,7 +232,7 @@ namespace ChooseYourOwnAdventure
 
                     case "leave":
                         Console.Clear();
-                        Console.WriteLine("stuck in ocean bustop placeholder");
+                        Console.WriteLine("Who ever this guys is, he smells like cheese! There's also a whole lot of creaking, popping, and snapping sounds coming from under that blacker-than-black cloak. You decide to take your chances in the floating railroad station. You enter the station and realize you're the only living around. Looking out of a window at the seemingly endless violet sea, you realize you may be the only living thing for thousands of miles. Maybe millions of miles. Maybe a billion-thousand miles!! You spot a phone on the wall and dial your buddy Dave. Hoping to hear a ring, you're deflated when only sound you hear from the other end is the Frank Sinatra song \"Beyond The Sea\". After waiting 9 days at the station without seeing another living being, you decide to swim for it. You drowned. GAME OVER");
                         break;
 
                     default:
@@ -249,12 +249,12 @@ namespace ChooseYourOwnAdventure
                 {
                     case "explore":
                         Console.Clear();
-                        Console.WriteLine("exploring the spaceship placeholder");
+                        Console.WriteLine("Where to go? There are SO many halls to choose from. Even halls in the ceiling and floor. You decide to go down the hallway on your immediate left. This hall is illuminated with a pinkish light. It's the only hall not lit by purely white light, so it's a no-brainer, right? RIGHT?");
                         room7 = "explore";
                         break;
                     case "wait":
                         Console.Clear();
-                        Console.WriteLine("your wait lasts an eternity, because you die placeholder");
+                        Console.WriteLine("You decide to wait around for some reason. Just hangin' out guys. Days and nights are indistinguishable. This is weird. You swear it's been weeks but you've never developed hunger pains or a thirst. Years later (you guess it's been years) you're still hanging out. Not hungry, not thirsty, not aging. GAME OVER");
                         Console.ReadKey();
                         Console.ReadKey();
                         continueToRun = false;
@@ -262,7 +262,7 @@ namespace ChooseYourOwnAdventure
 
                     case "sleep":
                         Console.Clear();
-                        Console.WriteLine("sleep also lasts an eternity, because you also die placeholder");
+                        Console.WriteLine("This cold hard floor seems like the perfect place to take a nap. The blaring horns are just soothing enough to usher you into sweet sleepy-time. You end up dying from a brain aneurysm, due to the BLARING HORNS! GAME OVER");
                         break;
 
                     default:
@@ -279,14 +279,14 @@ namespace ChooseYourOwnAdventure
                 {
                     case "hello":
                         Console.Clear();
-                        Console.WriteLine("voted off the spaceship placeholder");
+                        Console.WriteLine("You decide to cheerfully greet the roundtable. \"Hey guys! I'm Andy. My favorite color is muave and love David Hasselhoff.\" Every suited-up being around the table suddenly shoots up their hands and a hatch below you opens up and you're sucked out into the vacuum of space. You've been air-locked! GAME OVER");
                         Console.ReadKey();
                         Console.ReadKey();
                         //continueToRun = false;
                         break;
                     case "run":
                         Console.Clear();
-                        Console.WriteLine("shot in the head by an alien placeholder");
+                        Console.WriteLine("You start to consider running for it. Before you even make up your mind, the blue suited being pull out a gun and shoots you in the head. Your mind was read! GAME OVER");
                         Console.ReadKey();
                         Console.ReadKey();
                         continueToRun = false;
@@ -312,7 +312,7 @@ namespace ChooseYourOwnAdventure
                 {
                     case "steal":
                         Console.Clear();
-                        Console.WriteLine("You pry a golden faucet handle from the sink. Outside the bathroom is a man sitting in a chair with his back to you. From what you can see,  his flesh seems to be an oddly tinted shade of orange.\n\n" +
+                        Console.WriteLine("You pry a golden faucet handle from the sink. Outside the bathroom, a man sits in a chair with his back to you. The top of his head protudes above the back of the chair. His scalp appears orange with hair golden, yet straw-like - almost as if Rumpelstiltskin himself turned straw into gold, but then realized he preferred straw. \n\n" +
                             "Inventory: 1 Gold Handle " +
                     "Choose: Murder or Explore");
                         string stealInput = Console.ReadLine().ToLower();
@@ -359,14 +359,14 @@ namespace ChooseYourOwnAdventure
                 {
                     case "inspect":
                         Console.Clear();
-                        Console.WriteLine("door under construction placeholder");
+                        Console.WriteLine("You reach out and flatten the piece of paper. It simply reads \"Door Under Construction\". What does that even mean? You place your hand on the door's facade and your palm is immediately burnt. No only is the room on the other side in flames, but the door's locked and won't budge. You turn away in defeat. GAME OVER");
                         Console.ReadKey();
                         Console.ReadKey();
                         continueToRun = false;
                         break;
                     case "run":
                         Console.Clear();
-                        Console.WriteLine("shot in the head by secret service placeholder");
+                        Console.WriteLine("You make a run for it and immediately slip on the fringe of a golden rug. As you right yourself, you are shot in the back of the head by a Secret Service Agent.");
                         Console.ReadKey();
                         Console.ReadKey();
                         continueToRun = false;
